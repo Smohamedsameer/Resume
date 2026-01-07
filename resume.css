@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f1f1f1;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #121212;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #00e5ff;
+    text-shadow: 2px 3px 7px rgb(255, 255, 255);
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.contact, .links {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #00e5ff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-left: 4px solid #323333;
+    padding-left: 10px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #0b1936;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #00e5ff;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h4 {
+    color: #00e5ff;
+}
+
+.project ul {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
